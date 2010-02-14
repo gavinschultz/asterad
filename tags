@@ -1,0 +1,458 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALL_CHANNELS	.\include\sound.h	6;"	d
+ASTEROID	.\include\asteroid.h	/^} ASTEROID;$/;"	t	typeref:struct:Asteroid
+ASTEROID_CHUNKS	.\include\asteroid.h	8;"	d
+ASTEROID_DEBRIS_LIFE	.\include\asteroid.h	9;"	d
+ASTEROID_INC	.\include\asteroid.h	3;"	d
+ASTEROID_POINTS	.\include\asteroid.h	5;"	d
+ASTEROID_RADIUS	.\include\asteroid.h	6;"	d
+ASTEROID_SPEED	.\include\asteroid.h	7;"	d
+Asteroid	.\include\asteroid.h	/^typedef struct Asteroid$/;"	s
+BGMUSIC	.\include\game.h	30;"	d
+BULLET	.\include\game.h	/^} BULLET;$/;"	t	typeref:struct:Bullet
+BULLET_RANGE	.\include\game.h	23;"	d
+BULLET_SPEED	.\include\game.h	21;"	d
+Bullet	.\include\game.h	/^typedef struct Bullet$/;"	s
+DEBRIS_LIFE	.\include\game.h	24;"	d
+DEBUG_INC	.\include\debug.h	3;"	d
+DEFAULT_COLORDEPTH	.\include\game.h	13;"	d
+DEFAULT_FPS	.\include\timing.h	5;"	d
+DEFAULT_FULLSCREEN	.\include\game.h	14;"	d
+DEFAULT_HRES	.\include\game.h	10;"	d
+DEFAULT_VRES	.\include\game.h	11;"	d
+DIR	.\include\dirent.h	/^typedef struct DIR$/;"	s
+DIR	.\include\dirent.h	/^} DIR;$/;"	t	typeref:struct:DIR
+DIRENT_H	.\include\dirent.h	59;"	d
+DISPLAY_HIGH_SCORES	.\include\game.h	/^    DISPLAY_HIGH_SCORES,    \/\/ Showing high scores, game not yet started$/;"	e	enum:GameState
+ENTER_HIGH_SCORE	.\include\game.h	/^    ENTER_HIGH_SCORE    \/\/ Player has posted a high score, entering name$/;"	e	enum:GameState
+FPOINT	.\include\geometry2d.h	/^} FPOINT;$/;"	t	typeref:struct:Point
+FPS	.\include\game.h	9;"	d
+FRECT	.\include\geometry2d.h	/^} FRECT;$/;"	t	typeref:struct:Rect
+FROM_AREA	.\include\geometry2d.h	/^    FROM_AREA$/;"	e	enum:RelativePrimitivePosition
+FROM_CENTER	.\include\geometry2d.h	/^    FROM_CENTER,$/;"	e	enum:RelativePrimitivePosition
+FULL_DEG	.\include\geometry2d.h	10;"	d
+FXAsteroidExplode	.\src\game.c	/^    FXAsteroidExplode,  $/;"	e	enum:__anon2	file:
+FXBootup	.\src\game.c	/^    FXGameStart, FXGameOver, FXBootup,$/;"	e	enum:__anon2	file:
+FXGameOver	.\src\game.c	/^    FXGameStart, FXGameOver, FXBootup,$/;"	e	enum:__anon2	file:
+FXGameStart	.\src\game.c	/^    FXGameStart, FXGameOver, FXBootup,$/;"	e	enum:__anon2	file:
+FXShip1UP	.\src\game.c	/^    FXShipFire, FXShipExplode, FXShipRespawn, FXShip1UP,$/;"	e	enum:__anon2	file:
+FXShipExplode	.\src\game.c	/^    FXShipFire, FXShipExplode, FXShipRespawn, FXShip1UP,$/;"	e	enum:__anon2	file:
+FXShipFire	.\src\game.c	/^    FXShipFire, FXShipExplode, FXShipRespawn, FXShip1UP,$/;"	e	enum:__anon2	file:
+FXShipRespawn	.\src\game.c	/^    FXShipFire, FXShipExplode, FXShipRespawn, FXShip1UP,$/;"	e	enum:__anon2	file:
+FXType	.\src\game.c	/^} FXType;$/;"	t	typeref:enum:__anon2	file:
+FXUFOExplode	.\src\game.c	/^    FXUFOFire, FXUFOExplode, FXUFOPartExplode, FXUFOHum, FXUFOPing$/;"	e	enum:__anon2	file:
+FXUFOFire	.\src\game.c	/^    FXUFOFire, FXUFOExplode, FXUFOPartExplode, FXUFOHum, FXUFOPing$/;"	e	enum:__anon2	file:
+FXUFOHum	.\src\game.c	/^    FXUFOFire, FXUFOExplode, FXUFOPartExplode, FXUFOHum, FXUFOPing$/;"	e	enum:__anon2	file:
+FXUFOPartExplode	.\src\game.c	/^    FXUFOFire, FXUFOExplode, FXUFOPartExplode, FXUFOHum, FXUFOPing$/;"	e	enum:__anon2	file:
+FXUFOPing	.\src\game.c	/^    FXUFOFire, FXUFOExplode, FXUFOPartExplode, FXUFOHum, FXUFOPing$/;"	e	enum:__anon2	file:
+GAMESTATE	.\include\game.h	/^} GAMESTATE;$/;"	t	typeref:enum:GameState
+GAME_INC	.\include\game.h	7;"	d
+GAME_NOT_STARTED	.\include\game.h	/^    GAME_NOT_STARTED,   \/\/ Title screen, game has not yet started$/;"	e	enum:GameState
+GAME_OVER	.\include\game.h	/^    GAME_OVER,          \/\/ All ships gone, game over$/;"	e	enum:GameState
+GAME_PLAYING	.\include\game.h	/^    GAME_PLAYING,       \/\/ Game started and in progress$/;"	e	enum:GameState
+GEOMETRY2D_INC	.\include\geometry2d.h	2;"	d
+GRAPHICS_INC	.\include\graphics.h	3;"	d
+Game	.\include\game.h	/^struct Game$/;"	s
+GameState	.\include\game.h	/^typedef enum GameState$/;"	g
+HALIGN_CENTER	.\include\text.h	/^    HALIGN_CENTER,$/;"	e	enum:HTextAlign
+HALIGN_LEFT	.\include\text.h	/^    HALIGN_LEFT,$/;"	e	enum:HTextAlign
+HALIGN_NONE	.\include\text.h	/^    HALIGN_NONE$/;"	e	enum:HTextAlign
+HALIGN_RIGHT	.\include\text.h	/^    HALIGN_RIGHT,$/;"	e	enum:HTextAlign
+HISCORES_FILE	.\include\hiscore.h	9;"	d
+HISCORE_INC	.\include\hiscore.h	3;"	d
+HTextAlign	.\include\text.h	/^enum HTextAlign$/;"	g
+HighScore	.\include\hiscore.h	/^struct HighScore$/;"	s
+INVALID_CHANNEL	.\include\sound.h	4;"	d
+KeyMap	.\include\game.h	/^    struct KeyMap$/;"	s	struct:Game
+LEVEL_FINISHED	.\include\game.h	/^    LEVEL_FINISHED,     \/\/ Current level has finished, transitioning to next one$/;"	e	enum:GameState
+LOOP_FOREVER	.\include\sound.h	5;"	d
+MAX	.\include\util.h	7;"	d
+MAX_BULLETS	.\include\game.h	22;"	d
+MAX_FPS	.\include\timing.h	6;"	d
+MAX_HISCORES	.\include\hiscore.h	10;"	d
+MEMFREE	.\include\util.h	5;"	d
+MESSAGE_LIFE	.\include\game.h	25;"	d
+MIN	.\include\util.h	6;"	d
+OpenGLColor	.\include\graphics.h	/^struct OpenGLColor$/;"	s
+PI	.\include\geometry2d.h	9;"	d
+PRIMITIVE	.\include\geometry2d.h	/^} PRIMITIVE;$/;"	t	typeref:struct:Primitive
+PRIMITIVESYSTEM	.\include\geometry2d.h	/^} PRIMITIVESYSTEM;$/;"	t	typeref:struct:PrimitiveSystem
+Point	.\include\geometry2d.h	/^typedef struct Point$/;"	s
+Primitive	.\include\geometry2d.h	/^typedef struct Primitive$/;"	s
+PrimitiveSystem	.\include\geometry2d.h	/^typedef struct PrimitiveSystem$/;"	s
+RESFOLDER	.\include\game.h	29;"	d
+Rect	.\include\geometry2d.h	/^typedef struct Rect$/;"	s
+RelativePrimitivePosition	.\include\geometry2d.h	/^enum RelativePrimitivePosition$/;"	g
+SCALE_X	.\src\text.c	7;"	d	file:
+SCALE_Y	.\src\text.c	6;"	d	file:
+SCORE_1UP	.\include\game.h	27;"	d
+SCROLL_LEFT	.\include\hiscore.h	/^    SCROLL_LEFT,$/;"	e	enum:ScoreScrollDirection
+SCROLL_RIGHT	.\include\hiscore.h	/^    SCROLL_RIGHT$/;"	e	enum:ScoreScrollDirection
+SHIP	.\include\ship.h	/^} SHIP;$/;"	t	typeref:struct:Ship
+SHIP_ACCEL	.\include\ship.h	10;"	d
+SHIP_COLOR	.\include\ship.h	12;"	d
+SHIP_INC	.\include\ship.h	2;"	d
+SHIP_MAX_SPEED	.\include\ship.h	9;"	d
+SHIP_PLAYER	.\include\game.h	/^    SHIP_PLAYER,$/;"	e	enum:ShipType
+SHIP_POINTS	.\include\ship.h	11;"	d
+SHIP_TURN_SPEED	.\include\ship.h	8;"	d
+SHIP_UFO	.\include\game.h	/^    SHIP_UFO$/;"	e	enum:ShipType
+SOUND_INC	.\include\sound.h	2;"	d
+STARTING_ASTEROIDS	.\include\game.h	19;"	d
+STRNCPY	.\include\dirent.h	91;"	d
+STRNCPY	.\include\dirent.h	93;"	d
+ScoreScrollDirection	.\include\hiscore.h	/^enum ScoreScrollDirection$/;"	g
+Ship	.\include\ship.h	/^typedef struct Ship$/;"	s
+ShipType	.\include\game.h	/^enum ShipType$/;"	g
+TEXT_INC	.\include\text.h	3;"	d
+TIMETRACE	.\include\timing.h	4;"	d
+TRACE	.\include\debug.h	5;"	d
+UFO	.\include\ufo.h	/^typedef struct UFO$/;"	s
+UFO	.\include\ufo.h	/^} UFO;$/;"	t	typeref:struct:UFO
+UFOSize	.\include\ufo.h	/^enum UFOSize$/;"	g
+UFOSkill	.\include\ufo.h	/^enum UFOSkill$/;"	g
+UFO_BULLET_RANGE	.\include\ufo.h	12;"	d
+UFO_BULLET_SPEED	.\include\ufo.h	11;"	d
+UFO_CAPTAIN	.\include\ufo.h	/^    UFO_CAPTAIN,$/;"	e	enum:UFOSkill
+UFO_COLLIDABLE_PRIMITIVES	.\include\ufo.h	10;"	d
+UFO_ELITE	.\include\ufo.h	/^    UFO_ELITE$/;"	e	enum:UFOSkill
+UFO_HUGE	.\include\ufo.h	/^    UFO_HUGE = 2$/;"	e	enum:UFOSize
+UFO_INC	.\include\ufo.h	3;"	d
+UFO_NORMAL	.\include\ufo.h	/^    UFO_NORMAL = 1,$/;"	e	enum:UFOSize
+UFO_PRIMITIVE_COUNT	.\include\ufo.h	9;"	d
+UFO_PRIMITIVE_SIZE	.\include\ufo.h	8;"	d
+UFO_RELOAD_TIME	.\include\ufo.h	13;"	d
+UFO_ROOKIE	.\include\ufo.h	/^    UFO_ROOKIE,$/;"	e	enum:UFOSkill
+UFO_SMALL	.\include\ufo.h	/^    UFO_SMALL = 0,$/;"	e	enum:UFOSize
+UTIL_INC	.\include\util.h	3;"	d
+VALIGN_BOTTOM	.\include\text.h	/^    VALIGN_BOTTOM,$/;"	e	enum:VTextAlign
+VALIGN_CENTER	.\include\text.h	/^    VALIGN_CENTER,$/;"	e	enum:VTextAlign
+VALIGN_NONE	.\include\text.h	/^    VALIGN_NONE$/;"	e	enum:VTextAlign
+VALIGN_TOP	.\include\text.h	/^    VALIGN_TOP,$/;"	e	enum:VTextAlign
+VTextAlign	.\include\text.h	/^enum VTextAlign$/;"	g
+X_AXIS	.\include\game.h	17;"	d
+Y_AXIS	.\include\game.h	16;"	d
+_char_spacing	.\src\text.c	/^static float _char_spacing = 1.5f;$/;"	v	file:
+_elapsed_ticks	.\src\timing.c	/^static uint32_t _elapsed_ticks = 0;$/;"	v	file:
+_fps	.\src\timing.c	/^static unsigned int _fps = DEFAULT_FPS;$/;"	v	file:
+_halign	.\src\text.c	/^static enum HTextAlign _halign;$/;"	v	typeref:enum:HTextAlign	file:
+_line_width	.\src\text.c	/^static float _line_width = 1.0f;$/;"	v	file:
+_start_ticks	.\src\timing.c	/^static uint32_t _start_ticks = 0;$/;"	v	file:
+_text_height	.\src\text.c	/^static float _text_height = 9.0f;    \/\/ Unit height of a single character$/;"	v	file:
+_text_width	.\src\text.c	/^static float _text_width = 6.0f;     \/\/ Unit width of a single character$/;"	v	file:
+_time_mult	.\src\geometry2d.c	/^static float _time_mult = 1.0f;$/;"	v	file:
+_valign	.\src\text.c	/^static enum VTextAlign _valign;$/;"	v	typeref:enum:VTextAlign	file:
+_x_axis	.\src\geometry2d.c	/^static float _x_axis;$/;"	v	file:
+_y_axis	.\src\geometry2d.c	/^static float _y_axis;$/;"	v	file:
+acceleration	.\include\ship.h	/^    float acceleration;$/;"	m	struct:Ship
+add_asteroid	.\src\asteroid.c	/^void add_asteroid(ASTEROID **list, ASTEROID *new_ast)$/;"	f
+add_primitive_system	.\src\geometry2d.c	/^void add_primitive_system(PRIMITIVESYSTEM **list, PRIMITIVESYSTEM *ps)$/;"	f
+angle	.\include\game.h	/^    float angle;$/;"	m	struct:Bullet
+angle	.\include\geometry2d.h	/^    float angle;        \/\/ The angle at which the primitive is rotated; generally only relevant for polygons of 3 sides or more$/;"	m	struct:Primitive
+area	.\include\geometry2d.h	/^    float area;$/;"	m	struct:Primitive
+asteroids	.\src\game.c	/^ASTEROID *asteroids = NULL;$/;"	v
+b	.\include\graphics.h	/^    float b;$/;"	m	struct:OpenGLColor
+bitdepth	.\include\game.h	/^    int bitdepth;$/;"	m	struct:Game
+bombs	.\include\ship.h	/^    int bombs;              \/\/ number of bombs the ship has$/;"	m	struct:Ship
+bound_h	.\src\text.c	/^static float bound_h;$/;"	v	file:
+bound_w	.\src\text.c	/^static float bound_w;$/;"	v	file:
+bound_x1	.\src\text.c	/^static float bound_x1;$/;"	v	file:
+bound_x2	.\src\text.c	/^static float bound_x2;$/;"	v	file:
+bound_y1	.\src\text.c	/^static float bound_y1;$/;"	v	file:
+bound_y2	.\src\text.c	/^static float bound_y2;$/;"	v	file:
+bounding_box	.\include\geometry2d.h	/^    FRECT bounding_box;$/;"	m	struct:Primitive
+box_contains_point	.\src\geometry2d.c	/^char box_contains_point(struct Rect *box, float x, float y)$/;"	f
+boxes_colliding	.\src\geometry2d.c	/^char boxes_colliding(struct Rect *a, struct Rect *b)$/;"	f
+break_asteroid	.\src\asteroid.c	/^void break_asteroid(ASTEROID **list, ASTEROID *ast_to_break)$/;"	f
+break_ufo	.\src\ufo.c	/^void break_ufo(UFO **ufop, PRIMITIVE *part_hit)$/;"	f
+broken	.\include\ufo.h	/^    char broken;$/;"	m	struct:UFO
+build_demo_objects	.\src\game.c	/^void build_demo_objects()$/;"	f
+bullets	.\src\game.c	/^BULLET bullets[MAX_BULLETS];     \/\/TODO: Better suited to some sort of queue or dynamic array, I daresay$/;"	v
+c0	.\src\text.c	/^static const float c0[] = { 0.0f, 1.0f, 0.0f, 2.0f, 1.0f, 3.0f, 2.0f, 2.0f, 2.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f, -1.0f, 0.0f, 1.0f, 2.0f, 2.0f };$/;"	v	file:
+c1	.\src\text.c	/^static const float c1[] = { 1.0f, 3.0f, 1.0f, 0.0f };$/;"	v	file:
+c2	.\src\text.c	/^static const float c2[] = { 0.0f, 2.0f, 1.0f, 3.0f, 2.0f, 2.0f, 0.0f, 0.0f, 2.0f, 0.0f };$/;"	v	file:
+c3	.\src\text.c	/^static const float c3[] = { 0.0f, 3.0f, 2.0f, 3.0f, 2.0f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 1.5f, 2.0f, 1.5f };$/;"	v	file:
+c4	.\src\text.c	/^static const float c4[] = { 0.0f, 3.0f, 0.0f, 1.0f, 2.0f, 1.0f, 2.0f, 3.0f, 2.0f, 0.0f };$/;"	v	file:
+c5	.\src\text.c	/^static const float c5[] = { 2.0f, 3.0f, 0.0f, 3.0f, 0.0f, 1.5f, 2.0f, 1.5f, 2.0f, 0.0f, 0.0f, 0.0f };$/;"	v	file:
+c6	.\src\text.c	/^static const float c6[] = { 0.0f, 3.0f, 0.0f, 0.0f, 2.0f, 0.0f, 2.0f, 1.5f, 0.0f, 1.5f };$/;"	v	file:
+c7	.\src\text.c	/^static const float c7[] = { 0.0f, 3.0f, 2.0f, 3.0f, 2.0f, 0.0f };$/;"	v	file:
+c8	.\src\text.c	/^static const float c8[] = { 0.0f, 0.0f, 0.0f, 3.0f, 2.0f, 3.0f, 2.0f, 0.0f, 0.0f, 0.0f, -1.0f, 0.0f, 1.5f, 2.0f, 1.5f };$/;"	v	file:
+c9	.\src\text.c	/^static const float c9[] = { 2.0f, 0.0f, 2.0f, 3.0f, 0.0f, 3.0f, 0.0f, 1.5f, 2.0f, 1.5f };$/;"	v	file:
+c_period	.\src\text.c	/^static const float c_period[] = { 0.75f, 0.0f, 0.75f, 0.5f, 1.25f, 0.5f, 1.25f, 0.0f, 0.75f, 0.0f };$/;"	v	file:
+ca	.\src\text.c	/^static const float ca[] = { 0.0f, 0.0f, 0.0f, 2.0f, 1.0f, 3.0f, 2.0f, 2.0f, 2.0f, 0.0f, -1.0f, 0.0f, 1.0f, 2.0f, 1.0f };$/;"	v	file:
+cached	.\include\dirent.h	/^   int    cached;             \/* Indicates un-processed entry in memory *\/$/;"	m	struct:DIR
+calculate_hit_score	.\src\game.c	/^int calculate_hit_score(BULLET *bullet, SHIP *ship, ASTEROID *ast)$/;"	f
+cb	.\src\text.c	/^static const float cb[] = { 1.0f, 1.5f, 2.0f, 0.75f, 1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 3.0f, 1.0f, 3.0f, 2.0f, 2.25f, 1.0f, 1.5f, 0.0f, 1.5f };$/;"	v	file:
+cc	.\src\text.c	/^static const float cc[] = { 2.0f, 2.75f, 1.0f, 3.0f, 0.0f, 2.0f, 0.0f, 1.0f, 1.0f, 0.0f, 2.0f, 0.25f };$/;"	v	file:
+cd	.\src\text.c	/^static const float cd[] = { 0.0f, 0.0f, 0.0f, 3.0f, 1.0f, 3.0f, 2.0f, 2.0f, 2.0f, 1.0f, 1.0f, 0.0f, 0.0f, 0.0f };$/;"	v	file:
+ce	.\src\text.c	/^static const float ce[] = { 2.0f, 3.0f, 0.0f, 3.0f, 0.0f, 0.0f, 2.0f, 0.0f, -1.0f, 0.0f, 1.5f, 1.0f, 1.5f };$/;"	v	file:
+centroid	.\include\geometry2d.h	/^    FPOINT centroid;     \/\/ Central point of the primitive; used as the axis around which rotation occurs$/;"	m	struct:Primitive
+cf	.\src\text.c	/^static const float cf[] = { 2.0f, 3.0f, 0.0f, 3.0f, 0.0f, 0.0f, -1.0f, 0.0f, 1.5f, 1.0f, 1.5f };$/;"	v	file:
+cg	.\src\text.c	/^static const float cg[] = { 2.0f, 2.75f, 1.0f, 3.0f, 0.0f, 2.0f, 0.0f, 1.0f, 1.0f, 0.0f, 2.0f, 1.0f, 1.0f, 1.0f };$/;"	v	file:
+ch	.\src\text.c	/^static const float ch[] = { 0.0f, 0.0f, 0.0f, 3.0f, -1.0f, 0.0f, 1.5f, 2.0f, 1.5f, -1.0f, 2.0f, 3.0f, 2.0f, 0.0f };$/;"	v	file:
+channel_continue_thrust	.\src\ship.c	/^static int channel_continue_thrust = INVALID_CHANNEL;$/;"	v	file:
+channel_start_thrust	.\src\ship.c	/^static int channel_start_thrust = INVALID_CHANNEL;$/;"	v	file:
+channel_stop_thrust	.\src\ship.c	/^static int channel_stop_thrust = INVALID_CHANNEL;$/;"	v	file:
+charset	.\src\hiscore.c	/^static const char charset[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 ";$/;"	v	file:
+charset	.\src\text.c	/^static const float *charset[] = { ca, cb, cc, cd, ce, cf, cg, ch, ci, cj, ck, cl, cm, cn, co, cp, cq, cr, cs, ct, cu, cv, cw, cx, cy, cz }; $/;"	v	file:
+charset_size	.\src\text.c	/^static const int   charset_size = sizeof(charset) \/ sizeof(*charset);$/;"	v	file:
+charset_sz	.\src\text.c	/^static const int   charset_sz[] = { sizeof ca, sizeof cb, sizeof cc, sizeof cd, sizeof ce, sizeof cf, sizeof cg, sizeof ch, sizeof ci, sizeof cj, sizeof ck,$/;"	v	file:
+check_game_status	.\src\game.c	/^void check_game_status()$/;"	f
+chunk_continue_thrust	.\src\ship.c	/^static Mix_Chunk *chunk_continue_thrust = NULL;$/;"	v	file:
+chunk_start_thrust	.\src\ship.c	/^static Mix_Chunk *chunk_start_thrust = NULL;$/;"	v	file:
+chunk_stop_thrust	.\src\ship.c	/^static Mix_Chunk *chunk_stop_thrust = NULL;$/;"	v	file:
+ci	.\src\text.c	/^static const float ci[] = { 0.0f, 0.0f, 2.0f, 0.0f, -1.0f, 0.0f, 3.0f, 2.0f, 3.0f, -1.0f, 1.0f, 0.0f, 1.0f, 3.0f };$/;"	v	file:
+cj	.\src\text.c	/^static const float cj[] = { 1.0f, 3.0f, 2.0f, 3.0f, 2.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f };$/;"	v	file:
+ck	.\src\text.c	/^static const float ck[] = { 0.0f, 0.0f, 0.0f, 3.0f, -1.0f, 2.0f, 3.0f, 0.0f, 1.5f, 2.0f, 0.0f };$/;"	v	file:
+cl	.\src\text.c	/^static const float cl[] = { 0.0f, 3.0f, 0.0f, 0.0f, 2.0f, 0.0f };$/;"	v	file:
+cleanup	.\src\game.c	/^void cleanup()$/;"	f
+clear_asteroids	.\src\asteroid.c	/^void clear_asteroids(ASTEROID **list)$/;"	f
+clear_primitive_systems	.\src\geometry2d.c	/^void clear_primitive_systems(PRIMITIVESYSTEM **list)$/;"	f
+closedir	.\include\dirent.h	/^static int closedir(DIR *dirp)$/;"	f
+cm	.\src\text.c	/^static const float cm[] = { 0.0f, 0.0f, 0.0f, 2.0f, 0.5f, 3.0f, 1.0f, 1.0f, 1.5f, 3.0f, 2.0f, 2.0f, 2.0f, 0.0f };$/;"	v	file:
+cn	.\src\text.c	/^static const float cn[] = { 0.0f, 0.0f, 0.0f, 3.0f, 2.0f, 0.0f, 2.0f, 3.0f };$/;"	v	file:
+co	.\src\text.c	/^static const float co[] = { 0.0f, 1.0f, 0.0f, 2.0f, 1.0f, 3.0f, 2.0f, 2.0f, 2.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f };$/;"	v	file:
+color	.\include\asteroid.h	/^    struct OpenGLColor color;         \/\/ the color (in hex RGB e.g. 0xFFFFFF) of the ship$/;"	m	struct:Asteroid	typeref:struct:Asteroid::OpenGLColor
+cp	.\src\text.c	/^static const float cp[] = { 0.0f, 0.0f, 0.0f, 3.0f, 1.0f, 3.0f, 2.0f, 2.0f, 1.0f, 1.0f, 0.0f, 1.0f };$/;"	v	file:
+cq	.\src\text.c	/^static const float cq[] = { 0.0f, 1.0f, 0.0f, 2.0f, 1.0f, 3.0f, 2.0f, 2.0f, 2.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f, -1.0f, 1.0f, 1.0f, 2.0f, 0.0f };$/;"	v	file:
+cr	.\src\text.c	/^static const float cr[] = { 0.0f, 0.0f, 0.0f, 3.0f, 1.0f, 3.0f, 2.0f, 2.0f, 1.0f, 1.0f, 0.0f, 1.0f, -1.0f, 1.0f, 1.0f, 2.0f, 0.0f };$/;"	v	file:
+create_asteroid	.\src\asteroid.c	/^ASTEROID *create_asteroid(float speed, float angle, float radius, int life)$/;"	f
+create_debris	.\src\game.c	/^PRIMITIVESYSTEM *create_debris(PRIMITIVE *p)$/;"	f
+create_primitive_system	.\src\geometry2d.c	/^PRIMITIVESYSTEM *create_primitive_system(int primitive_count, int primitive_size)$/;"	f
+create_primitives	.\src\geometry2d.c	/^PRIMITIVE *create_primitives(int num_of_primitives, int primitive_size)$/;"	f
+create_ship	.\src\ship.c	/^SHIP *create_ship(float x, float y)$/;"	f
+create_sparks	.\src\game.c	/^PRIMITIVESYSTEM *create_sparks(PRIMITIVE *source, int spark_count, enum RelativePrimitivePosition position, float min_angle_range, float max_angle_range, float max_speed)$/;"	f
+create_ufo	.\src\ufo.c	/^UFO *create_ufo(float speed, float angle, enum UFOSkill skill, enum UFOSize size, float x, float y)$/;"	f
+cs	.\src\text.c	/^static const float cs[] = { 2.0f, 3.0f, 1.0f, 3.0f, 0.0f, 2.0f, 2.0f, 1.0f, 1.0f, 0.0f, 0.0f, 0.0f };$/;"	v	file:
+ct	.\src\text.c	/^static const float ct[] = { 0.0f, 3.0f, 2.0f, 3.0f, -1.0f, 1.0f, 3.0f, 1.0f, 0.0f };$/;"	v	file:
+cu	.\src\text.c	/^static const float cu[] = { 0.0f, 3.0f, 0.0f, 0.5f, 1.0f, 0.0f, 2.0f, 0.5f, 2.0f, 3.0f };$/;"	v	file:
+current	.\include\dirent.h	/^   dirent current;            \/* Current directory entry *\/$/;"	m	struct:DIR
+current_name	.\src\hiscore.c	/^static char current_name[4] = {0};   \/\/ the current name selected by the user$/;"	v	file:
+current_pos	.\src\hiscore.c	/^static int current_pos = 0;     \/\/ the current position in which the user is entering a character. From 0 to 2.$/;"	v	file:
+current_selection	.\src\hiscore.c	/^static signed int current_selection = 0; \/\/ the current character selected$/;"	v	file:
+cv	.\src\text.c	/^static const float cv[] = { 0.0f, 3.0f, 0.0f, 2.0f, 1.0f, 0.0f, 2.0f, 2.0f, 2.0f, 3.0f };$/;"	v	file:
+cw	.\src\text.c	/^static const float cw[] = { 0.0f, 3.0f, 0.0f, 1.0f, 0.5f, 0.0f, 1.0f, 2.0f, 1.5f, 0.0f, 2.0f, 1.0f, 2.0f, 3.0f };$/;"	v	file:
+cx	.\src\text.c	/^static const float cx[] = { 0.0f, 3.0f, 2.0f, 0.0f, -1.0f, 0.0f, 0.0f, 2.0f, 3.0f };$/;"	v	file:
+cy	.\src\text.c	/^static const float cy[] = { 0.0f, 3.0f, 1.0f, 1.0f, 1.0f, 0.0f, -1.0f, 1.0f, 1.0f, 2.0f, 3.0f };$/;"	v	file:
+cz	.\src\text.c	/^static const float cz[] = { 0.0f, 3.0f, 2.0f, 3.0f, 0.0f, 0.0f, 2.0f, 0.0f };$/;"	v	file:
+d_name	.\include\dirent.h	/^   char d_name[MAX_PATH + 1]; \/* current dir entry (multi-byte char string) *\/$/;"	m	struct:dirent
+data	.\include\dirent.h	/^   WIN32_FIND_DATAA data;     \/* file attributes *\/$/;"	m	struct:dirent
+dead	.\include\ship.h	/^    char dead;              \/\/ not game over, just waiting for a respawn...$/;"	m	struct:Ship
+debris_systems	.\src\game.c	/^PRIMITIVESYSTEM *debris_systems = NULL;$/;"	v
+delete_asteroid	.\src\asteroid.c	/^void delete_asteroid(ASTEROID **list, ASTEROID *ast_to_delete)$/;"	f
+delete_primitive_system	.\src\geometry2d.c	/^void delete_primitive_system(PRIMITIVESYSTEM **list, PRIMITIVESYSTEM *to_delete)$/;"	f
+delete_ship	.\src\ship.c	/^void delete_ship(SHIP **shipp)$/;"	f
+delete_ufo	.\src\ufo.c	/^void delete_ufo(UFO **ufop)$/;"	f
+detect_collisions	.\src\game.c	/^void detect_collisions()$/;"	f
+dirent	.\include\dirent.h	/^typedef struct dirent$/;"	s
+dirent	.\include\dirent.h	/^}  dirent;$/;"	t	typeref:struct:dirent
+display_message	.\src\game.c	/^void display_message(const char *message, ...)$/;"	f
+draw_asteroid	.\src\game.c	/^void draw_asteroid(ASTEROID *asteroid)$/;"	f
+draw_lives	.\src\game.c	/^void draw_lives(SHIP *ship)$/;"	f
+draw_primitive	.\src\game.c	/^void draw_primitive(PRIMITIVE *p)$/;"	f
+draw_primitive_systems	.\src\game.c	/^void draw_primitive_systems(PRIMITIVESYSTEM **list)$/;"	f
+draw_scene	.\src\game.c	/^void draw_scene()$/;"	f
+draw_scores	.\src\game.c	/^void draw_scores()$/;"	f
+draw_ship	.\src\game.c	/^void draw_ship(SHIP *ship)$/;"	f
+draw_text	.\src\text.c	/^void draw_text(const char *text)$/;"	f
+draw_text_at	.\src\text.c	/^void draw_text_at(const char *text, float x, float y)$/;"	f
+end_frame	.\src\timing.c	/^void end_frame()$/;"	f
+enter_hiscore_character	.\src\hiscore.c	/^void enter_hiscore_character()$/;"	f
+filecounts	.\src\sound.c	/^static int *filecounts;         \/\/ array of ints, where each item corresponds to the number of sounds loaded for a particular sound type$/;"	v	file:
+filemap	.\src\sound.c	/^static const char **filemap;    \/\/ array of strings containing the base filenames, each one corresponding to a sound type$/;"	v	file:
+flare	.\include\ship.h	/^    PRIMITIVE flare;$/;"	m	struct:Ship
+flare_geometry	.\src\ship.c	/^const float flare_geometry[] = {$/;"	v
+flare_tip	.\include\ship.h	/^    float flare_tip;$/;"	m	struct:Ship
+frame	.\src\timing.c	/^static long frame = 0;$/;"	v	file:
+frame_rate	.\src\timing.c	/^static float frame_rate = 0.0;$/;"	v	file:
+fullscreen	.\include\game.h	/^    char fullscreen;        \/\/ 1 = fullscreen, 0 = windowed $/;"	m	struct:Game
+g	.\include\graphics.h	/^    float g;$/;"	m	struct:OpenGLColor
+game	.\include\game.h	/^} game;$/;"	v	typeref:struct:Game
+game_over	.\src\game.c	/^void game_over()$/;"	f
+get_current_hiscore_name	.\src\hiscore.c	/^const char *get_current_hiscore_name()$/;"	f
+get_elapsed_ticks	.\src\timing.c	/^uint32_t get_elapsed_ticks()$/;"	f
+get_frame_rate	.\src\timing.c	/^float get_frame_rate()$/;"	f
+get_frame_ticks	.\src\timing.c	/^uint32_t get_frame_ticks()$/;"	f
+get_line_intersection	.\src\geometry2d.c	/^char get_line_intersection(float p0_x, float p0_y, float p1_x, float p1_y, float p2_x, float p2_y, float p3_x, float p3_y, float *i_x, float *i_y)$/;"	f
+get_polygon_area	.\src\geometry2d.c	/^float get_polygon_area(FPOINT *points, int sz)$/;"	f
+h	.\include\geometry2d.h	/^    float x, y, w, h;$/;"	m	struct:Rect
+h	.\include\ship.h	/^    float w, h;$/;"	m	struct:Ship
+hRes	.\include\game.h	/^    int hRes, vRes;$/;"	m	struct:Game
+handle_event	.\src\game.c	/^void handle_event(SDL_Event *event)$/;"	f
+handle_keystate	.\src\game.c	/^void handle_keystate(SHIP *ship)$/;"	f
+hiscores	.\include\game.h	/^    struct HighScore hiscores[MAX_HISCORES];$/;"	m	struct:Game	typeref:struct:Game::HighScore
+hit_all_asteroids	.\src\game.c	/^void hit_all_asteroids()$/;"	f
+hit_asteroid	.\src\game.c	/^void hit_asteroid(ASTEROID *ast, BULLET *bullet)$/;"	f
+hit_ship	.\src\game.c	/^void hit_ship(SHIP *ship)$/;"	f
+hit_ufo	.\src\game.c	/^void hit_ufo(UFO **ufop, PRIMITIVE *part, BULLET *bullet)$/;"	f
+increment_score	.\src\game.c	/^void increment_score(SHIP *ship, int points)$/;"	f
+init	.\src\game.c	/^void init()$/;"	f
+init_gl	.\src\graphics.c	/^int init_gl(int hRes, int vRes, float x_axis, float y_axis)$/;"	f
+init_graphics	.\src\game.c	/^void init_graphics()$/;"	f
+init_hiscore	.\src\hiscore.c	/^void init_hiscore()$/;"	f
+init_level	.\src\game.c	/^void init_level()$/;"	f
+init_ships	.\src\ship.c	/^void init_ships()$/;"	f
+init_sound	.\src\sound.c	/^void init_sound()$/;"	f
+initials	.\include\hiscore.h	/^    char initials[3];$/;"	m	struct:HighScore
+invisible	.\include\geometry2d.h	/^    int invisible;$/;"	m	struct:Primitive
+is_hiscore_done	.\src\hiscore.c	/^const char is_hiscore_done()$/;"	f
+keymap	.\include\game.h	/^    } keymap;$/;"	m	struct:Game	typeref:struct:Game::KeyMap
+last_bullet	.\src\game.c	/^int last_bullet;$/;"	v
+last_char_flip	.\src\hiscore.c	/^static uint32_t last_char_flip = 0;$/;"	v	file:
+level	.\include\game.h	/^    int level;$/;"	m	struct:Game
+life	.\include\asteroid.h	/^    int life;               \/\/ number of hits the asteroid needs to take to be completely destroyed$/;"	m	struct:Asteroid
+lifetime	.\include\geometry2d.h	/^    int32_t lifetime;   \/\/ lifetime in milliseconds before the primitive expires; -1 = infinite$/;"	m	struct:Primitive
+lives	.\include\ship.h	/^    int lives;              \/\/ number of lives remaining, 0 = game over$/;"	m	struct:Ship
+load_sounds	.\src\sound.c	/^void load_sounds(const char *src_dir, const char **map, const unsigned int mapsz)$/;"	f
+main	.\src\game.c	/^int main(int argc, char *argv[])$/;"	f
+manage_hiscore_state	.\src\hiscore.c	/^void manage_hiscore_state()$/;"	f
+mapsize	.\src\sound.c	/^static int mapsize = 0;         \/\/ number of sound types that we have mapped$/;"	v	file:
+max_flare_tip	.\src\ship.c	/^static const float max_flare_tip = 2.0f;$/;"	v	file:
+message	.\include\game.h	/^    char message[200];$/;"	m	struct:Game
+message	.\src\game.c	/^static char* message = NULL;$/;"	v	file:
+message_timer	.\include\game.h	/^    int32_t message_timer;$/;"	m	struct:Game
+message_timer	.\src\game.c	/^int message_timer = 0;$/;"	v
+mode	.\include\geometry2d.h	/^    enum PolygonMode mode;$/;"	m	struct:PrimitiveSystem	typeref:enum:PrimitiveSystem::PolygonMode
+move_line	.\src\geometry2d.c	/^void move_line(FPOINT *point1, FPOINT *point2, FPOINT *centroid, float xVel, float yVel, float rotation)$/;"	f
+move_objects	.\src\game.c	/^void move_objects()$/;"	f
+move_point	.\src\geometry2d.c	/^void move_point(FPOINT *point, float xVel, float yVel)$/;"	f
+move_polygon	.\src\geometry2d.c	/^void move_polygon(FPOINT *points, int size, FPOINT *centroid, float xVel, float yVel, float *angle, float rotation, FRECT *bounding_box)$/;"	f
+move_primitive	.\src\geometry2d.c	/^void move_primitive(PRIMITIVE *p)$/;"	f
+move_primitive_systems	.\src\geometry2d.c	/^void move_primitive_systems(PRIMITIVESYSTEM **list)$/;"	f
+move_ship	.\src\game.c	/^void move_ship(struct Ship *ship)$/;"	f
+next	.\include\asteroid.h	/^    struct Asteroid *next;$/;"	m	struct:Asteroid	typeref:struct:Asteroid::Asteroid
+next	.\include\geometry2d.h	/^    struct PrimitiveSystem *next;$/;"	m	struct:PrimitiveSystem	typeref:struct:PrimitiveSystem::PrimitiveSystem
+numset	.\src\text.c	/^static const float *numset[] = { c0, c1, c2, c3, c4, c5, c6, c7, c8, c9 };$/;"	v	file:
+numset_sz	.\src\text.c	/^static const int   numset_sz[] = { sizeof c0, sizeof c1, sizeof c2, sizeof c3, sizeof c4, sizeof c5, sizeof c6, sizeof c7, sizeof c8, sizeof c9 };$/;"	v	file:
+opendir	.\include\dirent.h	/^static DIR *opendir(const char *dirname)$/;"	f
+owner	.\include\game.h	/^    } owner;$/;"	m	struct:Bullet	typeref:union:Bullet::__anon1
+owner_type	.\include\game.h	/^    enum ShipType owner_type;$/;"	m	struct:Bullet	typeref:enum:Bullet::ShipType
+p1	.\src\game.c	/^SHIP *p1 = NULL;$/;"	v
+p1_bomb	.\include\game.h	/^        SDLKey p1_bomb;$/;"	m	struct:Game::KeyMap
+p1_fire	.\include\game.h	/^        SDLKey p1_fire;$/;"	m	struct:Game::KeyMap
+p1_left	.\include\game.h	/^        SDLKey p1_left;$/;"	m	struct:Game::KeyMap
+p1_right	.\include\game.h	/^        SDLKey p1_right;$/;"	m	struct:Game::KeyMap
+p1_thrust	.\include\game.h	/^        SDLKey p1_thrust;$/;"	m	struct:Game::KeyMap
+p2_bomb	.\include\game.h	/^        SDLKey p2_bomb;$/;"	m	struct:Game::KeyMap
+p2_fire	.\include\game.h	/^        SDLKey p2_fire;$/;"	m	struct:Game::KeyMap
+p2_left	.\include\game.h	/^        SDLKey p2_left;$/;"	m	struct:Game::KeyMap
+p2_right	.\include\game.h	/^        SDLKey p2_right;$/;"	m	struct:Game::KeyMap
+p2_thrust	.\include\game.h	/^        SDLKey p2_thrust;$/;"	m	struct:Game::KeyMap
+parts	.\include\ufo.h	/^    PRIMITIVE *parts;$/;"	m	struct:UFO
+parts_count	.\include\ufo.h	/^    int parts_count;$/;"	m	struct:UFO
+patt	.\include\dirent.h	/^   char   patt[MAX_PATH + 3]; \/* search pattern (3 = pattern + "\\\\*\\0") *\/$/;"	m	struct:DIR
+paused	.\include\game.h	/^    char paused;            \/\/ 1 = game is paused$/;"	m	struct:Game
+ping_timer	.\include\ufo.h	/^    int ping_timer;$/;"	m	struct:UFO
+play_chunk	.\src\sound.c	/^int play_chunk(Mix_Chunk *chunk, int loops)$/;"	f
+play_sound	.\src\sound.c	/^int play_sound(int mapped_type)$/;"	f
+point	.\include\game.h	/^    FPOINT point;$/;"	m	struct:Bullet
+point2_rotate	.\src\geometry2d.c	/^void point2_rotate(struct Point *p, const float radians, const float pivotx, const float pivoty)$/;"	f
+points	.\include\geometry2d.h	/^    FPOINT *points;      \/\/ The points comprising the primitive$/;"	m	struct:Primitive
+polygon_contains_point	.\src\geometry2d.c	/^char polygon_contains_point(struct Point *polygon, int sz, float px, float py)$/;"	f
+prev	.\include\asteroid.h	/^    struct Asteroid *prev;$/;"	m	struct:Asteroid	typeref:struct:Asteroid::Asteroid
+prev	.\include\geometry2d.h	/^    struct PrimitiveSystem *prev;$/;"	m	struct:PrimitiveSystem	typeref:struct:PrimitiveSystem::PrimitiveSystem
+primitive	.\include\asteroid.h	/^    PRIMITIVE primitive;$/;"	m	struct:Asteroid
+primitive	.\include\ship.h	/^    PRIMITIVE primitive;$/;"	m	struct:Ship
+primitive_contains_point	.\src\geometry2d.c	/^char primitive_contains_point(PRIMITIVE *primitive, FPOINT *point)$/;"	f
+primitives	.\include\geometry2d.h	/^    PRIMITIVE *primitives;$/;"	m	struct:PrimitiveSystem
+primitives_colliding	.\src\geometry2d.c	/^char primitives_colliding(PRIMITIVE *pa, PRIMITIVE *pb)$/;"	f
+quit	.\include\game.h	/^    char quit;              \/\/ 1 = game is quitting$/;"	m	struct:Game
+r	.\include\graphics.h	/^    float r;$/;"	m	struct:OpenGLColor
+radius	.\include\asteroid.h	/^    float radius;           \/\/ radius of the asteroid - although not circular, radius still determines the size$/;"	m	struct:Asteroid
+rand_sign	.\src\util.c	/^int rand_sign()$/;"	f
+randf	.\src\util.c	/^float randf(float limit)$/;"	f
+range	.\include\game.h	/^    float range;    \/\/ the distance the bullet can travel before dissipating$/;"	m	struct:Bullet
+read_high_scores	.\src\hiscore.c	/^void read_high_scores(struct HighScore *hiscores)$/;"	f
+readdir	.\include\dirent.h	/^static struct dirent *readdir(DIR *dirp)$/;"	f
+reload_timer	.\include\ufo.h	/^    int reload_timer;$/;"	m	struct:UFO
+reset	.\src\game.c	/^void reset()$/;"	f
+reset_ufo_timer	.\src\game.c	/^void reset_ufo_timer()$/;"	f
+resize_window	.\src\graphics.c	/^void resize_window(GLsizei w, GLsizei h, float x_axis, float y_axis)$/;"	f
+respawn	.\src\game.c	/^void respawn(SHIP *ship)$/;"	f
+rewinddir	.\include\dirent.h	/^static void rewinddir(DIR* dirp)$/;"	f
+rotation	.\include\geometry2d.h	/^    float rotation;     \/\/ The rate of rotation$/;"	m	struct:Primitive
+score	.\include\hiscore.h	/^    long int score;$/;"	m	struct:HighScore
+score	.\include\ship.h	/^    long int score;$/;"	m	struct:Ship
+screen	.\src\game.c	/^SDL_Surface *screen = NULL;$/;"	v
+screen_trace	.\src\graphics.c	/^void screen_trace(char *message)$/;"	f
+scroll_direction	.\src\hiscore.c	/^enum ScoreScrollDirection scroll_direction;$/;"	v	typeref:enum:ScoreScrollDirection
+scroll_start_ticks	.\src\hiscore.c	/^static uint32_t scroll_start_ticks = 0;$/;"	v	file:
+search_handle	.\include\dirent.h	/^   HANDLE search_handle;      \/* File search handle *\/$/;"	m	struct:DIR
+set_axes	.\src\geometry2d.c	/^void set_axes(float x, float y)$/;"	f
+set_fps	.\src\timing.c	/^void set_fps(int fps)$/;"	f
+set_game_state	.\src\game.c	/^void set_game_state(GAMESTATE state)$/;"	f
+set_high_score	.\src\hiscore.c	/^void set_high_score(struct HighScore *hiscores, const char *initials, const long int score)$/;"	f
+set_horizontal_align	.\src\text.c	/^void set_horizontal_align(enum HTextAlign align)$/;"	f
+set_primitive_angle	.\src\geometry2d.c	/^void set_primitive_angle(PRIMITIVE *p, float angle)$/;"	f
+set_primitive_position	.\src\geometry2d.c	/^void set_primitive_position(PRIMITIVE *p, float x, float y)$/;"	f
+set_text_boundaries	.\src\text.c	/^void set_text_boundaries(float left, float top, float right, float bottom)$/;"	f
+set_text_dimensions	.\src\text.c	/^void set_text_dimensions(float height, float line_width)$/;"	f
+set_time_mult	.\src\geometry2d.c	/^void set_time_mult(float t)$/;"	f
+set_vertical_align	.\src\text.c	/^void set_vertical_align(enum VTextAlign align)$/;"	f
+ship	.\include\game.h	/^        SHIP *ship;$/;"	m	union:Bullet::__anon1
+ship_centroid_x	.\src\ship.c	/^static const float ship_centroid_x = 1.9f;$/;"	v	file:
+ship_centroid_y	.\src\ship.c	/^static const float ship_centroid_y = 2.8f;$/;"	v	file:
+ship_fire	.\src\game.c	/^void ship_fire(struct Ship *ship)$/;"	f
+ship_geometry	.\src\ship.c	/^const float ship_geometry[] = {$/;"	v
+ship_thrust	.\src\ship.c	/^void ship_thrust(SHIP *ship, int on)$/;"	f
+show_bounding_boxes	.\include\game.h	/^    char show_bounding_boxes;$/;"	m	struct:Game
+shutdown	.\src\game.c	/^void shutdown()$/;"	f
+shutdown_sound	.\src\sound.c	/^void shutdown_sound()$/;"	f
+size	.\include\geometry2d.h	/^    int size;           \/\/ The number of points in the primitive$/;"	m	struct:Primitive
+size	.\include\geometry2d.h	/^    int size;$/;"	m	struct:PrimitiveSystem
+size	.\include\ufo.h	/^    enum UFOSize size;$/;"	m	struct:UFO	typeref:enum:UFO::UFOSize
+skill	.\include\ufo.h	/^    enum UFOSkill skill;$/;"	m	struct:UFO	typeref:enum:UFO::UFOSkill
+sound_on	.\src\sound.c	/^static int sound_on = 1;$/;"	v	file:
+soundmap	.\src\game.c	/^static const char *soundmap[] = $/;"	v	file:
+sounds	.\src\sound.c	/^static Mix_Chunk ***sounds;     \/\/ uh-oh, this is probably foolish. An array of arrays to Mix_Chunk pointers.$/;"	v	file:
+spark_systems	.\src\game.c	/^PRIMITIVESYSTEM *spark_systems = NULL;$/;"	v
+spawn_ufo	.\src\game.c	/^void spawn_ufo()$/;"	f
+speed	.\include\game.h	/^    float speed;$/;"	m	struct:Bullet
+speed	.\include\geometry2d.h	/^    float speed;        \/\/ The speed of the primitive. Can be derived from the angle, xVel and yVel, but often handy to store.$/;"	m	struct:Primitive
+square	.\src\util.c	/^float square(float n)$/;"	f
+start	.\src\game.c	/^void start()$/;"	f
+start_hiscore_scroll	.\src\hiscore.c	/^void start_hiscore_scroll(enum ScoreScrollDirection direction)$/;"	f
+start_ticks	.\include\geometry2d.h	/^    uint32_t start_ticks;   \/\/ the number of ticks at which this primitive was created$/;"	m	struct:Primitive
+start_timer	.\src\timing.c	/^void start_timer()$/;"	f
+state	.\include\game.h	/^    GAMESTATE state;        \/\/ current state of the game$/;"	m	struct:Game
+state_start_time	.\include\game.h	/^    uint32_t state_start_time;    \/\/ number of ticks since the game has been in the current state$/;"	m	struct:Game
+stop_channel	.\src\sound.c	/^void stop_channel(int *channel)$/;"	f
+stop_hiscore_scroll	.\src\hiscore.c	/^void stop_hiscore_scroll()$/;"	f
+thrusting	.\include\ship.h	/^    char thrusting;         \/\/ 1 = thrust is on$/;"	m	struct:Ship
+thrusting_time	.\include\ship.h	/^    uint32_t thrusting_time; \/\/ number of ticks thrust has been on for$/;"	m	struct:Ship
+time_mult	.\include\game.h	/^    float time_mult;$/;"	m	struct:Game
+timetrace	.\src\timing.c	/^void timetrace(char *str, ...)$/;"	f
+to_degrees	.\src\geometry2d.c	/^float to_degrees(float radians)$/;"	f
+to_glcolor	.\src\graphics.c	/^void to_glcolor(uint32_t color, struct OpenGLColor *glcolor)$/;"	f
+to_radians	.\src\geometry2d.c	/^float to_radians(float degrees)$/;"	f
+toggle_sound	.\src\sound.c	/^void toggle_sound()$/;"	f
+trace	.\src\debug.c	/^void trace(char *str, ...)$/;"	f
+tracefont	.\src\graphics.c	/^static FTGLfont *tracefont;$/;"	v	file:
+ufo	.\include\game.h	/^        UFO *ufo;$/;"	m	union:Bullet::__anon1
+ufo	.\src\game.c	/^UFO *ufo = NULL;$/;"	v
+ufo_centroids	.\src\ufo.c	/^static const float ufo_centroids[UFO_PRIMITIVE_COUNT * 2] = {$/;"	v	file:
+ufo_fire	.\src\game.c	/^void ufo_fire(UFO *ufo)$/;"	f
+ufo_geometry	.\src\ufo.c	/^static const float ufo_geometry[UFO_PRIMITIVE_COUNT * UFO_PRIMITIVE_SIZE * 2] = {$/;"	v	file:
+ufo_part_explosion_points	.\src\ufo.c	/^static const int ufo_part_explosion_points[UFO_PRIMITIVE_COUNT] = {$/;"	v	file:
+ufo_primitive_count	.\src\ufo.c	/^static const int ufo_primitive_count = sizeof(ufo_geometry) \/ sizeof(float) \/ (UFO_PRIMITIVE_SIZE * 2);$/;"	v	file:
+ufo_size_factors	.\src\ufo.c	/^static const float ufo_size_factors[] = {$/;"	v	file:
+ufo_timer	.\include\game.h	/^    int32_t ufo_timer;     \/\/ number of ticks under UFO appears again$/;"	m	struct:Game
+vRes	.\include\game.h	/^    int hRes, vRes;$/;"	m	struct:Game
+w	.\include\geometry2d.h	/^    float x, y, w, h;$/;"	m	struct:Rect
+w	.\include\ship.h	/^    float w, h;$/;"	m	struct:Ship
+wrap_axis	.\src\geometry2d.c	/^void wrap_axis(FPOINT *point)$/;"	f
+wrapf	.\src\util.c	/^float wrapf(float value, float limit)$/;"	f
+write_high_scores	.\src\hiscore.c	/^void write_high_scores(const struct HighScore *hiscores)$/;"	f
+x	.\include\geometry2d.h	/^    float x, y, w, h;$/;"	m	struct:Rect
+x	.\include\geometry2d.h	/^    float x, y;$/;"	m	struct:Point
+xVel	.\include\game.h	/^    float xVel, yVel;$/;"	m	struct:Bullet
+xVel	.\include\geometry2d.h	/^    float xVel, yVel;   \/\/ The X and Y velocity of the primitive$/;"	m	struct:Primitive
+y	.\include\geometry2d.h	/^    float x, y, w, h;$/;"	m	struct:Rect
+y	.\include\geometry2d.h	/^    float x, y;$/;"	m	struct:Point
+yVel	.\include\game.h	/^    float xVel, yVel;$/;"	m	struct:Bullet
+yVel	.\include\geometry2d.h	/^    float xVel, yVel;   \/\/ The X and Y velocity of the primitive$/;"	m	struct:Primitive
