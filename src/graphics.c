@@ -14,11 +14,11 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 
-#include	"graphics.h"
+#include    "graphics.h"
 
 int init_gl(int hRes, int vRes, float x_axis, float y_axis)
 {

@@ -14,12 +14,12 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 
-#include	"text.h"
-#include	<stdlib.h>
+#include    "text.h"
+#include    <stdlib.h>
 #include    <string.h>
 
 #define SCALE_Y _text_height / 3.0f

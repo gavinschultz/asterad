@@ -14,10 +14,10 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
-#include	"ship.h"
+#include    "ship.h"
 
 const float ship_geometry[] = {
     0.0f, 0.0f, 1.9f, 5.6f, 3.8f, 0.0f, 3.2f, 0.5f, 0.6f, 0.5f

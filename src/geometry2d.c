@@ -14,10 +14,10 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
-#include	"geometry2d.h"
+#include    "geometry2d.h"
 
 static float _x_axis;
 static float _y_axis;

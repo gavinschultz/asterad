@@ -14,19 +14,19 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 
 #ifndef  HISCORE_INC
 #define  HISCORE_INC
 
-#include	"SDL.h"
+#include    "SDL.h"
 #include    "debug.h"
-#include	<stdio.h>
+#include    <stdio.h>
 
-#define HISCORES_FILE   "resources\\hiscore"
-#define MAX_HISCORES    9
+#define HISCORES_FILE   "resources\\hiscore"    //TODO: This file also windows specific
+#define MAX_HISCORES    9       // Maximum number of high scores to store / display
 
 enum ScoreScrollDirection
 {
@@ -51,4 +51,4 @@ void set_high_score(struct HighScore *, const char *initials, const long int sco
 void read_high_scores(struct HighScore *);
 void write_high_scores(const struct HighScore *);
 
-#endif   /* ----- #ifndef HISCORE_INC  ----- */
+#endif

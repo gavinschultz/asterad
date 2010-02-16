@@ -14,16 +14,17 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 
 #ifndef  TEXT_INC
 #define  TEXT_INC
 
-#include	"SDL_opengl.h"
+#include    "SDL_opengl.h"
 #include    "debug.h"
 
+// Allows text to be aligned within a box
 enum HTextAlign
 {
     HALIGN_LEFT,

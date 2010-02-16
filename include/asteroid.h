@@ -14,25 +14,24 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
-#ifndef  ASTEROID_INC
-#define  ASTEROID_INC
+#ifndef ASTEROID_INC
+#define ASTEROID_INC
 
-#define	ASTEROID_POINTS 11			/* number of points on an asteroid */
-#define ASTEROID_RADIUS 20.0f
-#define ASTEROID_SPEED  42.0f
-#define ASTEROID_CHUNKS 2           /* number of chunks when an asteroid breaks */
-#define ASTEROID_DEBRIS_LIFE    3000
+#define ASTEROID_POINTS     11          /* number of points on an asteroid */
+#define ASTEROID_RADIUS     20.0f       /* radius of largest asteroid */
+#define ASTEROID_SPEED      42.0f
+#define ASTEROID_CHUNKS     2           /* number of chunks when an asteroid breaks */
 
-#include	"graphics.h"
+#include    "graphics.h"
 #include    "geometry2d.h"
 #include    "debug.h"
 
 typedef struct Asteroid
 {
-    PRIMITIVE primitive;
+    PRIMITIVE primitive;    // primitive defining points, position, movement of asteroid etc
     struct OpenGLColor color;         // the color (in hex RGB e.g. 0xFFFFFF) of the ship
     int life;               // number of hits the asteroid needs to take to be completely destroyed
     float radius;           // radius of the asteroid - although not circular, radius still determines the size

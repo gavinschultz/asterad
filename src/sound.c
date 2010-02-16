@@ -14,11 +14,11 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 
-#include	"sound.h"
+#include    "sound.h"
 
 static const char **filemap;    // array of strings containing the base filenames, each one corresponding to a sound type
 static int mapsize = 0;         // number of sound types that we have mapped

@@ -14,7 +14,7 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 
@@ -22,7 +22,7 @@
 #define  UTIL_INC
 
 #define MEMFREE(x)  if (x != NULL) { free(x); x = NULL; }
-#define	MIN(x,y)    (x < y ? x : y)
+#define MIN(x,y)    (x < y ? x : y)
 #define MAX(x,y)    (x > y ? x : y)
 
 #include    <math.h>

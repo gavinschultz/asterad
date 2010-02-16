@@ -14,21 +14,21 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 #ifndef  SOUND_INC
 #define  SOUND_INC
-
-#define INVALID_CHANNEL -99
-#define LOOP_FOREVER -1
-#define ALL_CHANNELS -1
 
 #include    <string.h>
 #include    "SDL.h"
 #include    "SDL_mixer.h"
 #include    "debug.h"
 #include    "dirent.h"
+
+#define INVALID_CHANNEL -99
+#define LOOP_FOREVER -1
+#define ALL_CHANNELS -1
 
 void init_sound(void);
 void load_sounds(const char *src_dir, const char **map, const unsigned int mapsz);
@@ -39,4 +39,4 @@ void stop_channel(int *channel);
 void toggle_sound(void);
 void shutdown_sound(void);
 
-#endif   /* ----- #ifndef SOUND_INC  ----- */
+#endif

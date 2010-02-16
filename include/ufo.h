@@ -14,7 +14,7 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 
@@ -31,6 +31,7 @@
 #define     UFO_BULLET_RANGE            100.0f
 #define     UFO_RELOAD_TIME             1000    // Number of ticks (ms) between shots
 
+//TODO: Use this
 enum UFOSkill
 {
     UFO_ROOKIE,
@@ -60,4 +61,4 @@ UFO *create_ufo(float speed, float angle, enum UFOSkill skill, enum UFOSize size
 void break_ufo(UFO **, PRIMITIVE *part_hit);  // breaks the UFO into collidable pieces, which shortly explode
 void delete_ufo(UFO **); // deletes the UFO from memory
 
-#endif   /* ----- #ifndef UFO_INC  ----- */
+#endif

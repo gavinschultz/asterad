@@ -14,10 +14,10 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
-#include	"hiscore.h"
+#include    "hiscore.h"
 
 static const char charset[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 ";
 static int current_pos = 0;     // the current position in which the user is entering a character. From 0 to 2.
@@ -110,7 +110,7 @@ void read_high_scores(struct HighScore *hiscores)
     {
         if (line != NULL)
         {
-            sscanf(line, "%3[^,]%6d", &hiscores[i].initials, &hiscores[i].score);
+            sscanf(line, "%3[^,]%7d", &hiscores[i].initials, &hiscores[i].score);
         }
         i++;
     }
@@ -133,7 +133,7 @@ void write_high_scores(const struct HighScore *hiscores)
 
     for (i=0; i<MAX_HISCORES; i++)
     {
-        sprintf(line, "%-3s%6d\n", hiscores[i].initials, hiscores[i].score);
+        sprintf(line, "%-3s%07d\n", hiscores[i].initials, hiscores[i].score);
         fputs(line, fp);
     }
 

@@ -14,7 +14,7 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 #include    "game.h"
@@ -159,7 +159,7 @@ void init()
     init_ships();
     load_sounds(RESFOLDER, soundmap, sizeof(soundmap) / sizeof(char*));
 
-    // Configure key bindings
+    // Configure key bindings. TODO: make these configurable
     game.keymap.p1_left = SDLK_a;
     game.keymap.p1_right = SDLK_d;
     game.keymap.p1_thrust = SDLK_w;
@@ -457,7 +457,7 @@ void draw_scene()
         for (i=0; i<MAX_HISCORES; i++)
         {
             set_text_boundaries(-X_AXIS, Y_AXIS, X_AXIS, ((4-i) * 11.0f));
-            sprintf(score, "%-3s %6d", game.hiscores[i].initials, game.hiscores[i].score); 
+            sprintf(score, "%-3s %8d", game.hiscores[i].initials, game.hiscores[i].score); 
             draw_text(score);
         }
     }

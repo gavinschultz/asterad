@@ -14,13 +14,13 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 
-#include	"SDL.h"
+#include    "SDL.h"
 
-#define TIMETRACE       0       /* Enabled / disable time tracing */
+#define TIMETRACE       0       /* Enable / disable time tracing */
 #define DEFAULT_FPS     60      /* default frames per second */
 #define MAX_FPS         200     /* maximum frames per second */
 

@@ -14,11 +14,11 @@
   GNU General Public License for more details.
   
   You should have received a copy of the GNU General Public License
-  along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+  along with Asterad.  If not, see <http://www.gnu.org/licenses/>.
 */ 
 
 
-#include	"ufo.h"
+#include    "ufo.h"
 
 // bottom, middle, top, 3 windows
 static const float ufo_geometry[UFO_PRIMITIVE_COUNT * UFO_PRIMITIVE_SIZE * 2] = {
